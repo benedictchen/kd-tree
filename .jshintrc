@@ -1,0 +1,22 @@
+{
+  "node": true,
+  "sub": true,
+  "esnext": true,
+  "curly": true,
+  "expr": true,
+  "latedef": true,
+  "quotmark": true,
+  "undef": true,
+  "unused": true,
+  "trailing": true,
+  "globals"   : {
+    /* MOCHA */
+    "describe"   : false,
+    "it"         : false,
+    "before"     : false,
+    "beforeEach" : false,
+    "after"      : false,
+    "afterEach"  : false
+  }
+}
+
