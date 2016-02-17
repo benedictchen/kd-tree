@@ -120,7 +120,8 @@ gulp.task('lint', function() {
     .pipe(jshint.reporter('jshint-stylish'))
     .pipe(jshint.reporter('fail'))
     .on('error', function(err){
-        growl('ERROR: Linting failed.')
+        growl('ERROR: Linting failed.');
+        console.error(err);
     });
 });
 
